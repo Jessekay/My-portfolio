@@ -69,26 +69,7 @@ HTML 5 and CSS 3
 ### Tech Stack <a name="tech-stack"></a>
 
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
 
 <!-- Features -->
 
@@ -100,10 +81,6 @@ HTML 5 and CSS 3
 - **[follow html and css best practice]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
 
 
 
@@ -138,12 +115,11 @@ Example commands:
 
 ### Install
 
-Install this project with:
+Install this project with: npm install
 
 
 
-npm
-```
+
 -
 
 ### Usage
@@ -209,13 +185,7 @@ I would like to thank microverse for this exercise
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
