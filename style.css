@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    font-size: 62%;
-    background-color: #e5e5e5;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62%;
+  background-color: #e5e5e5;
 }
 
 .menu-wrap {
   position: absolute;
-  width: 376px;
+  width: 375px;
   height: 70px;
   padding: 20px;
   background-color: white;
@@ -23,7 +23,7 @@ body{
 .brand {
   width: 76px;
   height: 20px;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -40,7 +40,7 @@ body{
   height: 3px;
   margin: 5px;
   display: block;
-  background-color:  #6070ff;
+  background-color: #6070ff;
 }
 
 .nav-bar {
@@ -51,43 +51,43 @@ body{
 }
 
 .wrapper {
-    width: 375px;
-    height: 718px;
-    background-image: url(/images/header.png);
-    background-repeat: no-repeat;
-    background-color: white;
-    border: 2px solid red;
-    border-bottom-left-radius: 8em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
+  width: 375px;
+  height: 718px;
+  background-image: url(/images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-bottom-left-radius: 8em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
 }
 
 .title {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .intro {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-  }
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
 
 .connect {
   width: 117px;
   height: 24px;
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
@@ -98,16 +98,11 @@ body{
   width: 50%;
   display: flex;
   justify-content: space-between;
-  /* border: 2px solid green; */
   padding: 2px;
   align-items: center;
   flex-direction: row;
 }
 
- li {
-   list-style: none;
-
+li {
+  list-style: none;
 }
-
-
-
