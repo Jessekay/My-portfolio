@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>Hello Microverse</b></h3>
+  <h3><b>My-Portfolio</b></h3>
 
 </div>
 
@@ -59,10 +59,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [My-Portfolio] <a name="about-project"></a>
 
 
-**[Hello microverse]** is a simple linter configuration.
+**[My-Portfolio]** is a first mobile version  project.
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML 5 and CSS 3
@@ -106,7 +106,6 @@ HTML 5 and CSS 3
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://github.com/Jessekay/Hello-microverse.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +132,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  https://github.com/Jessekay/Hello-microverse.git
+  https://github.com/Jessekay/My-portfolio.git
 ```
 -
 
@@ -187,7 +186,7 @@ index.html in browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/Jessekay/Hello-microverse/issues](../../issues/).
+Feel free to check the [https://github.com/Jessekay/My-portfolio/issues](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
