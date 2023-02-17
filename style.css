@@ -134,7 +134,7 @@ img {
 
 .text-title {
   width: 100%;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -144,7 +144,7 @@ img {
 
 .subtitle {
   height: 16px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -182,7 +182,7 @@ img {
   display: flex;
   flex-direction: row;
   height: 16px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -190,12 +190,10 @@ img {
   color: #7a869a;
 }
 
-
-
 .text {
   width: 295px;
   height: 76px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -209,7 +207,7 @@ img {
   flex-direction: row;
   width: 100%;
   height: 16px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -219,8 +217,6 @@ img {
   margin-left: -10px;
   margin-bottom: 10px;
 }
-
-
 
 .button {
   width: 40%;
@@ -252,7 +248,7 @@ img {
 
 h1 {
   height: 101px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
