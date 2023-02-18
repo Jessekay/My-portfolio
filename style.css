@@ -107,7 +107,7 @@ li {
 }
 
 .cards {
-  display: flex;
+  display: grid;
   gap: 88px;
   flex-direction: column;
   padding-top: 40px;
