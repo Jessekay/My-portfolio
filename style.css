@@ -350,3 +350,39 @@ h1 {
 .span {
   padding: 10px;
 }
+
+.contact {
+  height: 845px;
+  background-image: url(./images/contact.png);
+  background: #6070FF;
+}
+
+.contact-me{
+  position: absolute;
+width: 327px;
+height: 102px;
+left: 24px;
+top: 4850px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+}
+
+.more {
+  position: absolute;
+width: 327px;
+height: 102px;
+left: 24px;
+top: 4907px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+}
