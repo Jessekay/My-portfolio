@@ -477,3 +477,15 @@ h1 {
   background: #6070ff;
   color: #fff;
 }
+
+.btn:active {
+  background: #2230d2;
+}
+
+.btn:disabled,
+btn[disable] {
+ color: #5e6c84;
+ border: 1px solid #5e6c84;
+ cursor: not-allowed;
+ background: #fff; 
+}
