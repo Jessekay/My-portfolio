@@ -483,9 +483,9 @@ h1 {
 }
 
 .btn:disabled,
-btn[disable] {
- color: #5e6c84;
- border: 1px solid #5e6c84;
- cursor: not-allowed;
- background: #fff; 
+.btn[disable] {
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+  cursor: not-allowed;
+  background: #fff;
 }
