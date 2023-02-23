@@ -472,3 +472,8 @@ h1 {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
+
+.btn:hover {
+  background: #6070ff;
+  color: #fff;
+}
