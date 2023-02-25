@@ -159,6 +159,11 @@ img {
   width: 100%;
 }
 
+img:hover {
+  transform: scale(1.05);
+  transition-duration: var(--menu-speed);
+}
+
 .text-title {
   width: 100%;
   font-family: 'Poppins', sans-serif;
