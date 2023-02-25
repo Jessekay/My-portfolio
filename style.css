@@ -39,6 +39,11 @@ body {
   color: #6070ff;
 }
 
+.brand:hover {
+  transform: rotate(360deg);
+  transition: transform 0.4s ease-in-out;
+}
+
 .bar {
   width: 30px;
   height: 3px;
@@ -152,6 +157,11 @@ li {
 
 img {
   width: 100%;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition-duration: var(--menu-speed);
 }
 
 .text-title {
