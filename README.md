@@ -41,6 +41,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -85,6 +86,7 @@ HTML 5 and CSS 3
 
 > Add a link to your deployed project.
 
+- [Live Demo Link](https://jessekay.github.io/My-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
