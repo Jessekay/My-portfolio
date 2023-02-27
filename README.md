@@ -82,7 +82,11 @@ HTML 5 and CSS 3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://jessekay.github.io/My-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
