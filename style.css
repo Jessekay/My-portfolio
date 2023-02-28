@@ -272,16 +272,16 @@ img:hover {
 }
 
 .introduction {
-  /* height: 1263px; */
   left: 375px;
   top: 4769px;
   padding: 22px;
-  border-top-right-radius: 8em;
   padding-top: 100px;
   background-color: white;
+  border-top-right-radius: 8em;
 }
 
-h1 {
+.self {
+  width: 50%;
   height: 101px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -316,22 +316,27 @@ h1 {
 }
 
 .lang-skills {
-  padding: 20px;
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
 }
 
 .lg {
+  display: flex;
   font-size: 20px;
   font-weight: 500;
   font-family: 'poppins', sans-serif;
   font-style: none;
+  margin-left: 20px;
 }
 
 .down {
   display: flex;
   flex-direction: row;
   width: 20px;
-  margin-left: 90%;
-  margin-top: -20px;
+  height: 15px;
+  /* margin-left: 90%;
+  margin-top: -20px; */
 }
 
 .show-skills {
@@ -363,23 +368,43 @@ h1 {
 }
 
 .frame {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
+}
+
+.framework {
+  display: flex;
+  width: 90%;
+  height: 40px;
+  justify-content: space-between;
+}
+
+
+.skl {
+  display: flex;
+  width: 90%;
+  height: 40px;
+  justify-content: space-between;
+  margin-top: 35px;
 }
 
 .forward {
   display: flex;
   flex-direction: row;
   width: 10px;
-  margin-left: 90%;
-  margin-top: -60px;
+  height: 20px;
 }
 
 .divider1 {
   margin-top: 35px;
+  margin-top: 20px;
+
 }
 
 .divider2 {
   margin-top: 35px;
+  margin-top: 20px;
 }
 
 .span {
@@ -389,7 +414,7 @@ h1 {
 .contact {
   background: url(./images/contact.png)  no-repeat #6070ff;
   border-top-left-radius: 8em;
-  margin-top: -159px;
+  margin-top: -126px;
   background-size: 62%;
   background-position: right;
   padding: 100px 10px;
@@ -464,6 +489,7 @@ h1 {
 .about-myself {
   padding-bottom: 200px;
   background-color: white;
+  border-top-right-radius: 8em;
 }
 
 #text-message::placeholder {
@@ -569,7 +595,7 @@ h1 {
     width: 362px;
     height: 130px;
     margin-top: 50px;
-    margin-right: 425px;
+    margin-right: 455px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 48px;
@@ -593,7 +619,7 @@ h1 {
   }
 
   .connect {
-    margin-right: 585px;
+    margin-right: 600px;
     width: 217px;
     display: flex;
     text-align: left;
@@ -727,6 +753,7 @@ h1 {
     width: 247px;
     margin-left: 100px;
     margin-bottom: 20px;
+    font-size: 48px;
   }
 
   .connect1 {
@@ -748,6 +775,29 @@ h1 {
   .resume {
     width: 150px;
     margin-left: 100px;
+  }
+
+  .lang-skills {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+  }
+  
+  .lg {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    font-style: none;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 15px;
+    margin-left: 85%;
+    margin-right: 500px;
   }
 
   .lang-img {
@@ -779,6 +829,11 @@ h1 {
     width: 100%;
   }
 
+  .self {
+    width: 50%;
+    font-size: 34px;
+  }
+
   .introduction {
     height: auto;
     left: 375px;
@@ -796,8 +851,32 @@ h1 {
     margin-left: 100px;
   }
 
-  .down {
-    margin-right: 500px;
+  .frame {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .framework {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+  }
+  
+  
+  .skl {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+  }
+  
+  .forward {
+    display: flex;
+    flex-direction: row;
+    width: 10px;
+    height: 20px;
   }
 
   .contact {
