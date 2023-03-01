@@ -650,6 +650,7 @@ img:hover {
 
   .cards {
     padding: 60px;
+    width: 100%;
   }
 
   .card {
