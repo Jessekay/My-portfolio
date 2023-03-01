@@ -335,6 +335,7 @@ img:hover {
   flex-direction: row;
   width: 20px;
   height: 15px;
+
   /* margin-left: 90%;
   margin-top: -20px; */
 }
@@ -380,7 +381,6 @@ img:hover {
   justify-content: space-between;
 }
 
-
 .skl {
   display: flex;
   width: 90%;
@@ -400,7 +400,6 @@ img:hover {
   width: 90%;
   margin-top: 35px;
   margin-top: 20px;
-
 }
 
 .divider2 {
@@ -752,13 +751,6 @@ img:hover {
     margin-bottom: 85px;
   }
 
-  .self {
-    width: 247px;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    font-size: 48px;
-  }
-
   .connect1 {
     margin-left: 100px;
     width: 117px;
@@ -785,7 +777,7 @@ img:hover {
     width: 85%;
     justify-content: space-between;
   }
-  
+
   .lg {
     display: flex;
     font-size: 20px;
@@ -793,7 +785,7 @@ img:hover {
     font-family: 'poppins', sans-serif;
     font-style: none;
   }
-  
+
   .down {
     display: flex;
     flex-direction: row;
@@ -834,7 +826,9 @@ img:hover {
 
   .self {
     width: 50%;
-    font-size: 34px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-size: 48px;
   }
 
   .introduction {
@@ -859,22 +853,21 @@ img:hover {
     flex-direction: column;
     padding: 20px;
   }
-  
+
   .framework {
     display: flex;
     width: 90%;
     height: 40px;
     justify-content: space-between;
   }
-  
-  
+
   .skl {
     display: flex;
     width: 90%;
     height: 40px;
     justify-content: space-between;
   }
-  
+
   .forward {
     display: flex;
     flex-direction: row;
