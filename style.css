@@ -21,7 +21,23 @@ body {
 }
 
 .menu {
-  display: none;
+  display: block;
+  position: fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nav-item {
+  margin: 16px auto;
+}
+
+.menu.active {
+  left: 0;
 }
 
 .brand {
@@ -49,7 +65,28 @@ body {
   height: 3px;
   margin: 5px;
   display: block;
+  color: white;
   background-color: #6070ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger {
+  display: block;
+  margin-left: 210px;
+  cursor: pointer;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .nav-bar {
@@ -122,11 +159,6 @@ body {
   padding: 2px;
   align-items: center;
   flex-direction: row;
-}
-
-.hamburger {
-  display: block;
-  margin-left: 190px;
 }
 
 li {
@@ -552,6 +584,10 @@ h1 {
   }
 
   .hamburger {
+    display: block;
+  }
+
+  .bar {
     display: none;
   }
 
@@ -610,7 +646,7 @@ h1 {
   }
 
   .menu {
-    display: block;
+    display: none;
     display: flex;
     flex-direction: row;
   }
