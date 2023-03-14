@@ -5,28 +5,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Jesse Full Stack Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="menu-wrap">
     <nav class="nav-bar">
-      <a href="#" class="brand">My Logo</a>
+      <a href="#" class="brand">Jesse</a>
       <div class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </div>
-      <div>
+      <div> 
         <ul class="menu">
-          <li>Portfolio</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li class="nav-item">
+            <div class="hamburger new active">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </li>
+          <li class="nav-item"> 
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item"> 
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <ul class="desktop-menu">
+          <li> 
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li> 
+            <a href="#">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
   </header>
+  <script src="script.js"></script>
   <section class="wrapper">
     <h1 class="title">I'm Jesse Glad to see you!</h1>
     <p class="intro">I'm a software developer! I can help you build a product , feature or website Look through some of
@@ -35,17 +60,17 @@
     <a href="#" class="connect">LET'S CONNECT</a><br>
     <div class="socials">
       <ul>
-        <li><a href=""><img src="./images/twitter.png" alt="twitter"></a></li>
-        <li><a href=""><img src="./images/linkedin.png" alt="linkedin"></a></li>
-        <li><a href=""><img src="./images/m.png" alt="mail"></a></li>
-        <li><a href=""><img src="./images/github.png" alt="github"></a></li>
-        <li><a href=""><img src="./images/v.png" alt="peace"></a></li>
+        <li><a href=""><img src="./images/twitter.png" alt="icon for twitter"></a></li>
+        <li><a href=""><img src="./images/linkedin.png" alt="icon for linkedin"></a></li>
+        <li><a href=""><img src="./images/m.png" alt="icon for mail"></a></li>
+        <li><a href=""><img src="./images/github.png" alt="icon for github"></a></li>
+        <li><a href=""><img src="./images/v.png" alt="icon for for angellist"></a></li>
       </ul>
     </div>
   </section>
   <section class="cards">
     <div class="card">
-      <img src="./images/11.png" alt="card1">
+      <img src="./images/11.png" alt="Tonic Project Image">
       <div>
         <h2 class="text-title">Tonic</h2>
         <div class="experience">
@@ -66,7 +91,7 @@
     </div>
 
     <div class="card card-reverse">
-      <img src="./images/22.png" alt="card2">
+      <img src="./images/22.png" alt="Multi-Post stories project image">
       <div>
         <h2 class="text-title">Multi-post stories</h2>
         <div class="experience">
@@ -88,7 +113,7 @@
     </div>
 
     <div class="card">
-      <img src="./images/33.png" alt="card3">
+      <img src="./images/33.png" alt="Facebook 360 project image">
       <div>
         <h2 class="text-title">Facebook 360</h2>
         <div class="experience">
@@ -110,7 +135,7 @@
     </div>
 
     <div class="card card-reverse">
-      <img src="./images/44.png" alt="card4">
+      <img src="./images/44.png" alt="Uber Navigation Project image">
       <div>
         <h2 class="text-title">Uber Navigation</h2>
         <div class="experience">
@@ -135,7 +160,7 @@
 
     <section class="about-myself">
       <div class="introduction">
-        <h1 class="self">About Myself</h1>
+        <h2 class="self">About Myself</h2>
         <p class="about">Hello I'm a software developer! I can help you build a product , feature or website Look
           through some of my work and experience! If you like what you see and have a project you need coded, don't
           hestiate to contact me.</p><br>
@@ -143,11 +168,11 @@
 
         <div class="socials1">
           <ul>
-            <li><a href=""><img src="./images/github.png" alt="github"></a></li>
-            <li><a href=""><img src="./images/linkedin.png" alt="linkedin"></a></li>
-            <li><a href=""><img src="./images/v.png" alt="peace"></a></li>
-            <li><a href=""><img src="./images/twitter.png" alt="twitter"></a></li>
-            <li><a href=""><img src="./images/m.png" alt="mail"></a></li>
+            <li><a href=""><img src="./images/twitter.png" alt="icon for twitter"></a></li>
+            <li><a href=""><img src="./images/linkedin.png" alt="icon for linkedin"></a></li>
+            <li><a href=""><img src="./images/m.png" alt="icon for mail"></a></li>
+            <li><a href=""><img src="./images/github.png" alt="icon for github"></a></li>
+            <li><a href=""><img src="./images/v.png" alt="icon for for angellist"></a></li>
           </ul><br>
           <button class="resume">Get my resume</button> <br><br><br>
         </div>
@@ -160,24 +185,24 @@
         </div>
         <ul class="show-skills">
           <li class="sl">
-            <img class="lang-img" src="./images/js.png" alt="javascript">
+            <img class="lang-img" src="./images/js.png" alt="javascript icon">
             <span class="span">JavaScript</span>
           </li>
           <li class="sl">
-            <img class="lang-img" src="./images/html.png" alt="html">
+            <img class="lang-img" src="./images/html.png" alt="html icon">
             <span class="span">HTML</span>
           </li>
           <li class="sl">
-            <img class="lang-img" src="./images/css.png" alt="css">
+            <img class="lang-img" src="./images/css.png" alt="css icon">
             <span class="span">CSS</span>
           </li>
         </ul>
         <div class="frame">
-          <h1 class="lg">Frameworks</h1>
-          <img class="forward" src="./images/20.png"></img>
+          <div class="framework"><h3 class="lg">Frameworks</h3>
+          <img class="forward" src="./images/20.png"></img></div>
           <hr class="divider1">
-          <h1 class="lg">Skills</h1>
-          <img class="forward" src="./images/20.png"></img>
+          <div class="skl"><h3 class="lg">Skills</h3>
+          <img class="forward" src="./images/20.png"></img></div>
           <hr class="divider2">
         </div>
 
@@ -203,6 +228,7 @@
         <button id="contact-btn" class="btn contact-btn" type="submit"> Get in touch</button>
         </form>
       </footer>
+  <script src="index.js" type="text/javascript"></script>
 </body>
 
 </html>
