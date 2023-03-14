@@ -42,6 +42,10 @@ body {
   mix-blend-mode:normal
 }
 
+body.scroll-lock {
+  overflow: hidden;
+}
+
 .nav-link {
   display: flex;
   color: #fff;
@@ -179,19 +183,22 @@ body {
 .hamburger {
   display: block;
   cursor: pointer;
-  margin-left: 190px;
+  color: blue;
+  position: sticky;
+  z-index: 99999 !important;
 }
 
-.new.active .bar:nth-child(2){
+.hamburger.active .bar:nth-child(2){
   opacity: 0;
 }
 
-.new.active .bar:nth-child(1){
+.hamburger.active .bar:nth-child(1){
   transform: translateY(8px) rotate(45deg);
+  background-color: #fff;
 }
-
-.new.active .bar:nth-child(3){
+.hamburger.active .bar:nth-child(3){
   transform: translateY(-8px) rotate(-45deg);
+  background-color: #fff;
 }
 
 li {
