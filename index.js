@@ -254,9 +254,9 @@ projects.forEach((aProject) => {
     );
     thePopupCardShows.innerHTML = htmlToInsert;
 
-    const overlay = document.getElementById('overlay');
-    overlay.classList.toggle('hidden');
-    thePopupCardShows.classList.toggle('popup-hidden');
+    const overly = document.getElementById('overly');
+    overly.classList.toggle('hidden');
+    thePopupCardShows.classList.toggle('hidden-popup');
 
     const closePopBtn = document.getElementById('pop-btn');
 
@@ -264,7 +264,7 @@ projects.forEach((aProject) => {
       const thePopupCardShows = document.getElementById('popupCard');
       thePopupCardShows.innerHTML = '';
       overly.classList.toggle('hidden');
-      thePopupCardShows.classList.toggle('popup-hidden');
+      thePopupCardShows.classList.toggle('hidden-popup');
     });
   });
 });
