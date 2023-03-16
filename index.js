@@ -39,7 +39,7 @@ const projects = [
     company: 'CANOPY',
     post: 'Back End Dev',
     year: '2014',
-    image: 'img/desktop\ img\ 1.jpg',
+    image: './images/11.png',
     technologies: ['html', 'css', 'javascript'],
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
@@ -54,7 +54,7 @@ const projects = [
     company: 'FACEBOOK',
     post: 'Full Stack Dev',
     year: '2015',
-    image: 'img/Desktop-card\ 2.jpg',
+    image: './images/22.png',
     technologies: ['html', 'css', 'Ruby on rails', 'javascript'],
     description:
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
@@ -69,7 +69,7 @@ const projects = [
     company: 'FACEBOOK',
     post: 'Back End Dev',
     year: '2017',
-    image: 'img/Snapshoot\ Portfolio.jpg',
+    image: './images/33.png',
     technologies: ['html', 'css', 'Ruby on rails', 'javascript'],
     description:
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
@@ -84,7 +84,7 @@ const projects = [
     company: 'UBER',
     post: 'Full End Dev',
     year: '2019',
-    image: 'img/Snapshoot\ Portfolio\ \(1\).jpg',
+    image: './images/44.png',
     technologies: ['html', 'css', 'php', 'javascript'],
     description:
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
@@ -132,7 +132,7 @@ for (let i = 0; i < projects.length; i += 1) {
   info.appendChild(company);
 
   const dot1 = document.createElement('img');
-  dot1.src = 'img/dot.svg';
+  dot1.src = './images/dot.svg';
   dot1.alt = 'dot';
   info.appendChild(dot1);
 
@@ -141,7 +141,7 @@ for (let i = 0; i < projects.length; i += 1) {
   info.appendChild(role);
 
   const dot2 = document.createElement('img');
-  dot2.src = 'img/dot.svg';
+  dot2.src = './images/dot.svg';
   dot2.alt = 'dot';
   info.appendChild(dot2);
 
@@ -201,9 +201,9 @@ const ProjectPopup = (
     <h3 class="card-title">${title}</h3>
     <div class="card-info">
       <span class="info-active">${company}</span>
-      <img src="img/dot.svg" alt="dot" />
+      <img src="./images/dot.svg" alt="dot" />
       <span>${post}</span>
-      <img src="./img/dot.svg" alt="dot" />
+      <img src="./images/dot.svg" alt="dot" />
       <span>${year}</span>
     </div>
   </div>
@@ -254,9 +254,9 @@ projects.forEach((aProject) => {
     );
     thePopupCardShows.innerHTML = htmlToInsert;
 
-    const overly = document.getElementById('overly');
-    overly.classList.toggle('hidden');
-    thePopupCardShows.classList.toggle('hidden-popup');
+    const overlay = document.getElementById('overlay');
+    overlay.classList.toggle('hidden');
+    thePopupCardShows.classList.toggle('popup-hidden');
 
     const closePopBtn = document.getElementById('pop-btn');
 

@@ -229,7 +229,7 @@ li {
 }
 
 img {
-  width: 100%;
+  width: 2%;
 }
 
 img:hover {
@@ -699,6 +699,22 @@ img:hover {
   color: #344563;
 }
 
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  list-style-type: none;
+}
+
+.card-tag {
+  color: #5263ff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+}
+
 .card-skills {
   display: flex;
   flex-wrap: wrap;
@@ -719,7 +735,7 @@ img:hover {
   padding: 12px 0;
 }
 
-.card-button {
+.card-btn {
   color: #396df2;
   font-size: 17px;
   font-weight: 500;
@@ -730,19 +746,19 @@ img:hover {
   cursor: pointer;
 }
 
-.card-button:hover {
+.card-btn:hover {
   color: white;
   background-color: #5263ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.card-button:active {
+.card-btn:active {
   color: white;
   background-color: #2230d2;
   box-shadow: none;
 }
 
-.card-button:disabled {
+.card-btn:disabled {
   color: #5e6c84;
   background: none;
   box-shadow: none;
@@ -1401,7 +1417,7 @@ img:hover {
   }
 }
 
-#overly {
+#overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -1528,7 +1544,7 @@ img:hover {
   flex-wrap: wrap;
 }
 
-.hidden-popup {
+.popup-hidden {
   transform: scale(0);
 }
 
