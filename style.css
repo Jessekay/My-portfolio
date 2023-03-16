@@ -213,25 +213,6 @@ li {
   padding-top: 40px;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  gap: 12px;
-  width: 327px;
-  height: auto;
-  background: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  margin: 22px;
-  justify-content: space-between;
-}
-
-img {
-  width: 2%;
-}
-
 img:hover {
   transform: scale(1.05);
   transition-duration: var(--menu-speed);
@@ -720,9 +701,6 @@ img:hover {
   flex-wrap: wrap;
   gap: 8px;
   list-style-type: none;
-}
-
-.card-skills {
   color: #5263ff;
   font-size: 12px;
   font-weight: 500;
@@ -768,9 +746,9 @@ img:hover {
 
 .closed summary img {
   transform: rotate(-90deg);
-} 
- 
-@media only screen and (max-width: 480px){
+}
+
+@media only screen and (max-width: 480px) {
   .card {
     display: flex;
     flex-direction: column;
@@ -809,24 +787,20 @@ img:hover {
 
   #popupCard .pop-img .card-img {
     object-fit: initial;
-    height: 220px;
+    height: 180px;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-
-
-
-
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .pop-content {
     flex-direction: column;
   }
 
   .pop-content p {
     width: 100% !important;
-    font-size: 15px;
+    font-size: 11px;
   }
 
   .pop-footer {
@@ -857,8 +831,6 @@ img:hover {
 }
 
 @media only screen and (min-width: 768px) {
-
-
   * {
     margin: 0;
     padding: 0;
@@ -964,9 +936,6 @@ img:hover {
     text-decoration: none;
     color: #0421c2;
   }
-
-
-
 
   .experience {
     margin-bottom: 20px;
@@ -1311,7 +1280,7 @@ img:hover {
   gap: 20px;
   top: 0;
   left: 0;
-  margin: 2% 9%;
+  margin: 2% 4.3%;
   background-color: white;
   border-radius: 16px;
   z-index: 9999;
@@ -1346,6 +1315,7 @@ img:hover {
 
 .pop-content p {
   width: 66%;
+  font-size: 11px;
 }
 
 .pop-img {
@@ -1415,6 +1385,6 @@ img:hover {
   flex-wrap: wrap;
 }
 
-.hidden-popup {
+.popup-hidden {
   transform: scale(0);
 }

@@ -17,7 +17,6 @@ function closeMenu() {
 }
 navLink.forEach((n) => n.addEventListener('click', closeMenu));
 
-
 function limitWords(paragraph, limit) {
   const words = paragraph.split(' ');
   if (words.length <= limit) return paragraph;
@@ -45,8 +44,8 @@ const projects = [
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab-khwaja',
+    liveVersion: 'https://jessekay.github.io/My-portfolio/',
+    githubLink: 'https://github.com/Jessekay',
   },
   {
     id: 2,
@@ -60,8 +59,8 @@ const projects = [
       'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab-khwaja',
+    liveVersion: 'https://jessekay.github.io/My-portfolio/',
+    githubLink: 'https://github.com/Jessekay',
   },
   {
     id: 3,
@@ -75,8 +74,8 @@ const projects = [
       "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab-khwaja',
+    liveVersion: 'https://jessekay.github.io/My-portfolio/',
+    githubLink: 'https://github.com/Jessekay',
   },
   {
     id: 4,
@@ -90,8 +89,8 @@ const projects = [
       'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     details:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero culpa, excepturi harum corrupti inventore, quis cupiditate atque dolorem veritatis autem necessitatibus officiis vitae doloremque earum laudantium soluta praesentium odit at id aut aspernatur quas alias voluptates. Rerum veniam cum maiores? Aspernatur dolorem architecto et praesentium vitae earum voluptates exercitationem.',
-    liveVersion: 'https://nilab-khwaja.github.io/My_Protfolio/',
-    githubLink: 'https://github.com/nilab-khwaja',
+    liveVersion: 'https://jessekay.github.io/My-portfolio/',
+    githubLink: 'https://github.com/Jessekay',
   },
 ];
 
@@ -222,13 +221,13 @@ const ProjectPopup = (
     </ul>
     <span class="span"></span>
     <div class="pop-actions">
-      <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
-        <span>See live</span>
-        <img src="img/live-pop.svg" />
-      </button>
       <button class="pop-button" onclick="window.open('${liveVersion}', '_blank')">
         <span>See live</span>
-        <img src="img/github2.svg" />
+        <img src="images/live-pop.svg" />
+      </button>
+      <button class="pop-button" onclick="window.open('${githubLink}', '_blank')">
+        <span>See source</span>
+        <img src="images/github2.svg" />
       </button>
     </div>
   </div>
@@ -256,7 +255,7 @@ projects.forEach((aProject) => {
 
     const overly = document.getElementById('overly');
     overly.classList.toggle('hidden');
-    thePopupCardShows.classList.toggle('hidden-popup');
+    thePopupCardShows.classList.toggle('popup-hidden');
 
     const closePopBtn = document.getElementById('pop-btn');
 
@@ -264,7 +263,7 @@ projects.forEach((aProject) => {
       const thePopupCardShows = document.getElementById('popupCard');
       thePopupCardShows.innerHTML = '';
       overly.classList.toggle('hidden');
-      thePopupCardShows.classList.toggle('hidden-popup');
+      thePopupCardShows.classList.toggle('popup-hidden');
     });
   });
 });
