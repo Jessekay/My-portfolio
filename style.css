@@ -1384,3 +1384,9 @@ img:hover {
 .popup-hidden {
   transform: scale(0);
 }
+
+.error-msg {
+  color: gold;
+  font-size: 15px;
+  text-align: center;
+}
