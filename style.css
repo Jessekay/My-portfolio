@@ -297,8 +297,6 @@ img:hover {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-
-  /* font-size: 12px; */
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -809,7 +807,6 @@ img:hover {
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* Styles for large screens */
 
   .card {
     display: flex;

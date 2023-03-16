@@ -30,7 +30,6 @@ function limitWords(paragraph, limit) {
   return limitedParagraph;
 }
 
-//  Cards data
 const projects = [
   {
     id: 1,
@@ -94,10 +93,8 @@ const projects = [
   },
 ];
 
-// Get the container element
 const container = document.getElementById('works-container');
 
-// Loop the cards
 for (let i = 0; i < projects.length; i += 1) {
   const card = document.createElement('div');
   card.classList.add('card');
@@ -237,7 +234,6 @@ const ProjectPopup = (
 projects.forEach((aProject) => {
   const btnShowProject = document.getElementById(`card-${aProject.id}`);
   btnShowProject.addEventListener('click', () => {
-    // alert(`clicked on ${aPoject.id}`);
     const thePopupCardShows = document.getElementById('popupCard');
     const htmlToInsert = ProjectPopup(
       aProject.id,
