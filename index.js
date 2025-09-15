@@ -52,7 +52,7 @@ const projects = [
     company: 'Jesse & sons',
     post: 'Full Stack Dev',
     year: '2025',
-    image: './images/ProBall.png',
+    image: './images/Proball.png',
     technologies: ['html', 'css', 'PHP', 'javascript'],
     description:
       'The best sports market for ballers around the world selling the best quality balls to help them shine.',

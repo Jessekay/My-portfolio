@@ -17,15 +17,18 @@ body {
 }
 
 .menu-wrap {
-  position: absolute;
-  width: 375px;
+  position: fixed;
+  width: 100%;
   height: 70px;
   padding: 20px;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
 
 .desktop-menu {
-  display: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu {
@@ -42,6 +45,7 @@ body {
   background-color: #6070ffb0;
   backdrop-filter: blur(6px);
   padding-bottom: 500px;
+  justify-content: space-between;
 }
 
 body.scroll-lock {
@@ -101,9 +105,13 @@ body.scroll-lock {
 
 .nav-bar {
   display: flex;
-  flex-direction: row;
+  position: fixed;
+  /* flex-direction: row; */
   justify-content: space-between;
+  width: 90%;
   align-items: center;
+  background-color: white;
+  
 }
 
 .nav-link:hover {
@@ -146,6 +154,7 @@ body.scroll-lock {
   font-size: 16px;
   line-height: 24px;
   margin-top: 28px;
+  width: 60%;
 }
 
 .connect {
@@ -840,7 +849,7 @@ img:hover {
   }
 
   .menu-wrap {
-    width: 90%;
+    width: 100%;
   }
 
   .brand {
