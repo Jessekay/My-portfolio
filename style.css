@@ -48,6 +48,10 @@ body {
   justify-content: space-between;
 }
 
+menu li {
+  cursor: pointer;
+}
+
 body.scroll-lock {
   overflow: hidden;
 }
@@ -61,6 +65,7 @@ body.scroll-lock {
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
   transition: 0.7s ease;
+  cursor: pointer;
 }
 
 .bar {
@@ -194,7 +199,7 @@ body.scroll-lock {
   color: blue;
   position: sticky;
   z-index: 99999 !important;
-  margin-left: 200px;
+  margin-left: 290px;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -887,13 +892,13 @@ img:hover {
   }
 
   .intro {
-    width: 80%;
+    width: 40%;
     text-align: justify;
     display: flex;
     justify-content: justify;
     margin-top: 30px;
-    margin-left: 260px;
-    margin-right: 85px;
+    /* margin-left: 260px; */
+    margin-right: 200px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -935,11 +940,18 @@ img:hover {
   .desktop-menu li {
     padding: 10px;
     font-size: 15px;
+    cursor: pointer;
+  }
+
+  .desktop-menu li:hover {
+    color: #396df2;
+    transition: all 0.6s ease;
   }
 
   .desktop-menu li a {
     text-decoration: none;
     color: #0421c2;
+    cursor: pointer;
   }
 
   .experience {
