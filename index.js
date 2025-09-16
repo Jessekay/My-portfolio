@@ -278,3 +278,15 @@ form.addEventListener('submit', (e) => {
     error.innerHTML = 'invalid email!';
   }
 });
+
+document.querySelector('.resume').addEventListener('click', () => {
+  const fileUrl = '/files/Jesse.pdf';
+  const fileName = 'Jesse.pdf';
+
+  const a = document.createElement('a');
+  a.href = fileUrl;
+  a.download = fileName;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+});
