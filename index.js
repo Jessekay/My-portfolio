@@ -91,6 +91,20 @@ const projects = [
     liveVersion: 'https://jessekay.github.io/Library-App/',
     githubLink: 'https://github.com/Jessekay/Library-App',
   },
+   {
+    id: 4,
+    title: 'DriveSmart',
+    company: 'BookStore',
+    post: 'UI/UX Designer',
+    year: '2023',
+    image: './images/drivesmart.png',
+    technologies: ['html', 'css', 'javascript'],
+    description:
+      'Track your lessons, view your schedule, and stay ahead of your driving goals with DriveSmart.',
+    details: 'Track your driving lessons, view your schedule, and stay on top of your goals with DriveSmart — your personal driving companion. Manage bookings, monitor progress, and get reminders to never miss a lesson. Whether you are a beginner or improving your skills, DriveSmart helps you learn efficiently and achieve driving success confidently.',
+    liveVersion: 'https://www.figma.com/proto/ZuT6gpjQ96o1BGFl01Zyma/Untitled?node-id=4-41&starting-point-node-id=4%3A41',
+    githubLink: 'https://github.com/Jessekay/Library-App',
+  },
 ];
 
 const container = document.getElementById('works-container');
