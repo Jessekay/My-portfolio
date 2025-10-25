@@ -92,7 +92,7 @@ const projects = [
     githubLink: 'https://github.com/Jessekay/Library-App',
   },
    {
-    id: 4,
+    id: 5,
     title: 'DriveSmart',
     company: 'BookStore',
     post: 'UI/UX Designer',
@@ -109,7 +109,7 @@ const projects = [
 
 const container = document.getElementById('works-container');
 
-for (let i = 0; i < projects.length; i += 1) {
+for (let i = 0; i < projects.length; i +=1) {
   const card = document.createElement('div');
   card.classList.add('card');
 
@@ -169,7 +169,7 @@ for (let i = 0; i < projects.length; i += 1) {
   tags.classList.add('card-tags', 'card-item-mg');
   details.appendChild(tags);
 
-  for (let j = 0; j < projects[i].technologies.length; j += 1) {
+  for (let j = 0; j < projects[i].technologies.length; j +=1) {
     const tag = document.createElement('li');
     tag.classList.add('card-tag');
     tag.textContent = projects[i].technologies[j];
