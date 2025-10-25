@@ -259,7 +259,7 @@ projects.forEach((aProject) => {
       aProject.technologies,
       aProject.details,
       aProject.githubLink,
-      aProject.liveVersion,
+      aProject.githubLink,
     );
     thePopupCardShows.innerHTML = htmlToInsert;
 
