@@ -105,6 +105,19 @@ const projects = [
     liveVersion: 'https://www.figma.com/proto/ZuT6gpjQ96o1BGFl01Zyma/Untitled?node-id=4-41&starting-point-node-id=4%3A41',
     githubLink: 'https://github.com/Jessekay/Library-App',
   },
+  {
+    id:6,
+    title: 'Todo List',
+    company: 'Doit',
+    post: 'FrontEnd',
+    year: '2025',
+    image: './images/todolist.png',
+    technologies: ['react, javascript'],
+    description: 'This system helps the users to manage their tasks and help them be productive in their lives',
+    details: 'This system is designed to support users in staying organized and on top of their daily responsibilities. It gives them a simple and reliable way to create, track, and manage all their tasks in one place, making it easier to stay focused and productive. By helping users prioritize what matters most, set deadlines, and monitor their progress, the system encourages better time management and smart decision-making. Whether it’s schoolwork, personal goals, or everyday activities, the platform ensures that users can plan ahead, avoid forgetting important tasks, and ultimately build healthier productivity habits that improve their overall lifestyle',
+    liveVersion: 'https://jessekay.github.io/react-todoList/',
+    githubLink: 'https://github.com/Jessekay/react-todoList.git'
+  }
 ];
 
 const container = document.getElementById('works-container');
@@ -169,7 +182,7 @@ for (let i = 0; i < projects.length; i +=1) {
   tags.classList.add('card-tags', 'card-item-mg');
   details.appendChild(tags);
 
-  for (let j = 0; j < projects[i].technologies.length; j +=1) {
+  for (let j = 0; j < projects[i].technologies.length; j =+1) {
     const tag = document.createElement('li');
     tag.classList.add('card-tag');
     tag.textContent = projects[i].technologies[j];
@@ -259,7 +272,7 @@ projects.forEach((aProject) => {
       aProject.technologies,
       aProject.details,
       aProject.githubLink,
-      aProject.githubLink,
+      aProject.liveVersion,
     );
     thePopupCardShows.innerHTML = htmlToInsert;
 
